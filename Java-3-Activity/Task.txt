@@ -1,0 +1,10 @@
+Lesson 3 Actvity
+
+Task:
+Print your full name
+    System.out.printIn("Ying Pan");
+Print your full name with your full address
+    System.out.printIn("721 Broadway, New York, NY 10003, USA");
+Print your full name with your full address using only one print statement (challenge).   
+ System.out.printIn("721 Queens, New York, NY 10010, USA");
+Submit the link of the Repl project when you are done with the assignment.
