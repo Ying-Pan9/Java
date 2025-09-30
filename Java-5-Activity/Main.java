@@ -11,8 +11,8 @@ class Main {
     calculated sum and then display it.    
 */
     int num1 = 5;
-  int num2 = 100;
-  int sum = num1 + num2;
+    int num2 = 100;
+    int sum = num1 + num2;
   System.out.println("sum is "+ sum); // the '+' represents string concatenation // the '+' represents string concatenation
 
 /*  
@@ -69,6 +69,10 @@ class Main {
     System.out.println("y = "+y);
 
 */
+    y= ( 2*x*(x+1)*(-x/2.0) ) / A;
+    System.out.println("y = "+y); y= ( 2*x*(x+1)*(-x/2.0) ) / A;
+    System.out.println("y = "+y);
+
  // **** NOTE **** The variable y is already declared above so we don't need to re-declare it.
 
 
