@@ -11,7 +11,7 @@ class Main {
   }
 
     double areaOfCircle(double radius){
-    return Math.PI*Math.pow(radius,2); 
+    rJaeturn Math.PI*Math.pow(radius,2); 
   }
 
   void init(){
