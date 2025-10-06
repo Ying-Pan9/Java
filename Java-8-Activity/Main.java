@@ -47,10 +47,26 @@ double distance(double x1, double x2, double y1, double y2) {
     System.out.println("Temp in deg. C is " + FtoAC(F));
   
     //3
-    System.out.println("")
+    System.out.println("Enter Radius")
+    double radius = Input.readDouble();
+    sphereVolume(radius);
     //4
+    System.out.println("Enter Radius");
+    double radius1 = Input.readDouble();
+    System.out.println("Enter Height");
+    double h = Input.readDouble();
+    coneVolume(radius1, h);
+    //5\
+    System.out.println("Enter x1");
+    double x1 = Input.readDouble();
+    System.out.println("Enter y1");
+    double y1 = Input.readDouble();
+    System.out.println("Enter x2");
+    double x2 = Input.readDouble();
+    System.out.println("Enter y2");
+    double y2 = Input.readDouble();
 
-    //5
+    distance(x1, x2, y1, y2);
     
     
   }
