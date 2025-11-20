@@ -81,7 +81,22 @@ class Main {
 
   void init(){
     // write your code here
+int c = 0;
     
+    while( c != 4 ){
+      menu();
+      c = Input.readInt();
+      if(c<1 || c>4){
+        print("Invalid choice.\n\n");
+      }
+      if(c == 1){
+        print( rollDice() );
+      }else if(c == 2){
+        print( drawCard() );
+      }else if(c == 3){
+        watchingYou();
+      }
+    }
   }
 
   
