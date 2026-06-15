@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Database Project: ADA</title>
+    <!-- import CSS file(s) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />    <!-- import JS file(s) -->
+    <script src="ada.js"></script>
+  </head>
+  
+  <!-- Call the int function when website loads -->
+  <body onload="init()">
+    <div>
+      <!--  Header or Banner -->
+      <div id="header">
+      </div>
+      <!--  nav bar -->
+      <nav id='nav'>
+        <h2 style="color:black;">ADA Level</h2>
+            <a href="index.html" class="button">HOME</a>   
+            <a href="division.html" class="button">FILTERING: RIDERSHIP</a> 
+            <a href="ada.html" class="button">FILTERING: ADA</a>
+      </nav>
+      
+      <div class="container">
+        
+        <div class='panel'>
+          <div class="container filter">
+            <div>
+          
+              Left Panel
+              <h4> Enter level of 1 or 0</h4>
+              <input style="flex:2;text-align:right;" type="text" 
+                id="divison" placeholder="Enter ADA" >        
+              <a class="button" onclick="filter()"> Search </a><br>
+              <h4 id="count"></h4>
+            </div>
+          </div>
+        </div>
+        
+        <div id='centerpanel' class='container'>
+          Center Panel
+        </div>
+        
+      </div>
+
+      <div id='foot'>
+        <h3> Footer </h3>
+      </div>
+
+    </div>
+    
+  </body>
+</html>
